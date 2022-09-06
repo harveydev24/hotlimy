@@ -1,4 +1,4 @@
-# Hotlimy(Hot Deal Alimy)
+# Hotlimy(Hot Deal Alimy) v1.0
 
 직접 쓰려고 만든 텔레그램 핫딜 알리미
 
