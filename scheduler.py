@@ -9,4 +9,5 @@ class SchedulerManager:
         self.scheduler.add_job(job, 'interval', seconds=interval)
 
     def start_scheduler(self):
+        print('스케쥴러가 작동을 시작합니다.')
         self.scheduler.start()

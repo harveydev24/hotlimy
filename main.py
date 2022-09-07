@@ -9,6 +9,8 @@ if __name__ == '__main__':
     TOKEN = os.getenv("TOKEN")
     CHAT_ID = os.getenv("CHAT_ID")
 
+    print("*****Hotlimy v1.1*****")
+
     telebot_manager = TeleBotManager(token=TOKEN, chat_id=CHAT_ID)
     telebot_manager.start_bot()
 
