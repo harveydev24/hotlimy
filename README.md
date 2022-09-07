@@ -11,6 +11,31 @@
 - [FMKOREA 핫딜](https://www.fmkorea.com/hotdeal)
 - [PPOMPPU 핫딜](https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu)
 
+## 설치 및 실행
+
+```python
+# *************************************
+#
+# .env 파일 생성 후 아래 두 줄 저장
+#
+# TOKEN = "{BOT_TOKEN}"
+# CHAT_ID = "{CHAT_ID}"
+#
+# BOT_TOKEN, CHAT_ID 생성법은 구글 참고
+# *************************************
+
+
+# 가상환경 생성 및 실행
+python -m venv venv
+source venv/bin/activate
+
+# 라이브러리 설치
+pip install requirements.txt
+
+# Hotlimy 실행
+python main.py
+```
+
 ## 명령어
 
 - `/help`: 도움말
