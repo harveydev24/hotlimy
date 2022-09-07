@@ -12,6 +12,7 @@
 - [PPOMPPU 핫딜](https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu)
 
 ## 설치 및 실행
+### Python3
 
 ```python
 # *************************************
