@@ -24,9 +24,9 @@ class TeleBotManager:
         context.bot.send_message(
             chat_id=update.effective_chat.id, text="""
             - `/help`: 도움말
-- `/add target1 target2 ...`: 타겟리스트에 타겟 추가
-- `/del target1 target2 ...`: 타겟리스트에서 타겟 삭제
-- `/targets`: 현재 타겟리스트 보기
+            - `/add target1 target2 ...`: 타겟리스트에 타겟 추가
+            - `/del target1 target2 ...`: 타겟리스트에서 타겟 삭제
+            - `/targets`: 현재 타겟리스트 보기
             """)
 
     def add_target(self, update, context):
